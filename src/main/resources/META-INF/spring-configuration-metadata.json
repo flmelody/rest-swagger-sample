@@ -1,0 +1,40 @@
+{
+  "groups": [
+    {
+      "name": "swagger",
+      "type": "cloud.mysteriousman.configuration.SwaggerProperties",
+      "sourceType": "cloud.mysteriousman.configuration.SwaggerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "swagger.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "cloud.mysteriousman.configuration.SwaggerProperties",
+      "description": "swagger 启用状态.",
+      "defaultValue": false
+    },
+    {
+      "name": "swagger.title",
+      "type": "java.lang.String",
+      "sourceType": "cloud.mysteriousman.configuration.SwaggerProperties",
+      "description": "Swagger标题.",
+      "defaultValue": "Swagger-在线文档"
+    },
+    {
+      "name": "swagger.base-package",
+      "type": "java.lang.String",
+      "sourceType": "cloud.mysteriousman.configuration.SwaggerProperties",
+      "description": "Swagger扫描包根路径.",
+      "defaultValue": "cloud.mysteriousman.controller"
+    },
+    {
+      "name": "swagger.version",
+      "type": "java.lang.String",
+      "sourceType": "cloud.mysteriousman.configuration.SwaggerProperties",
+      "description": "Swagger文档版本.",
+      "defaultValue": "snapshot"
+    }
+  ],
+  "hints": []
+}
